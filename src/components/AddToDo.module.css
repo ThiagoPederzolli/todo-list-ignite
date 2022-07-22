@@ -1,0 +1,35 @@
+.wrapper {
+  width: 46rem;
+  height: 3.375rem;
+  display: flex;
+  gap: 0.5rem;
+  margin: -1.75rem auto;
+}
+
+.wrapper input {
+  width: 39.875rem;
+  background: var(--gray-500);
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  color: var(--gray-100);
+}
+
+.wrapper input::placeholder {
+  color: var(--gray-300);
+  padding-left: 1rem;
+}
+
+.wrapper button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  width: 5.625rem;
+  height: 3.25rem;
+  border: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  gap: 0.5rem;
+  font-weight: bold;
+}

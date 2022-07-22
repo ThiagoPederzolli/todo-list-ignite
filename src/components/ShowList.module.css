@@ -1,0 +1,30 @@
+.wrapper {
+  width: 46rem;
+  margin: 5.75rem auto 0;
+}
+
+.taskCounts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskCounts p {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.taskCounts p span {
+  display: inline;
+  color: var(--gray-200);
+  background: var(--gray-400);
+  border-radius: 999px;
+  padding: 2px 8px;
+  /* width: 1.5rem; */
+  height: 1.25rem;
+}
+
+.tasksContainer {
+  margin-top: 1.5rem;
+}
